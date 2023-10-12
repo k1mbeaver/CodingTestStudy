@@ -3,8 +3,7 @@
 
 using namespace std;
 
-vector<int> solution(vector<string> name, vector<int> yearning, vector<vector<string>> photo) {
-    
+vector<int> solution(vector<string> name, vector<int> yearning, vector<vector<string>> photo) {  
     vector<int> answer;
     int SequenceSum = 0;
     
@@ -22,9 +21,7 @@ vector<int> solution(vector<string> name, vector<int> yearning, vector<vector<st
                 }
             }
         } 
-        
         answer.push_back(SequenceSum);
-        
     }
     return answer;
 }
